@@ -1,0 +1,15 @@
+C:\Users\francesco.pazzaglia\Desktop\Progetto_Socket_FP\Progetto_Socket_FP\bin\Debug\Progetto_Socket_FP.exe.config
+C:\Users\francesco.pazzaglia\Desktop\Progetto_Socket_FP\Progetto_Socket_FP\bin\Debug\Progetto_Socket_FP.exe
+C:\Users\francesco.pazzaglia\Desktop\Progetto_Socket_FP\Progetto_Socket_FP\bin\Debug\Progetto_Socket_FP.pdb
+C:\Users\francesco.pazzaglia\Desktop\Progetto_Socket_FP\Progetto_Socket_FP\obj\Debug\Progetto_Socket_FP.csprojAssemblyReference.cache
+C:\Users\francesco.pazzaglia\Desktop\Progetto_Socket_FP\Progetto_Socket_FP\obj\Debug\MainWindow.g.cs
+C:\Users\francesco.pazzaglia\Desktop\Progetto_Socket_FP\Progetto_Socket_FP\obj\Debug\App.g.cs
+C:\Users\francesco.pazzaglia\Desktop\Progetto_Socket_FP\Progetto_Socket_FP\obj\Debug\Progetto_Socket_FP_MarkupCompile.cache
+C:\Users\francesco.pazzaglia\Desktop\Progetto_Socket_FP\Progetto_Socket_FP\obj\Debug\Progetto_Socket_FP_MarkupCompile.lref
+C:\Users\francesco.pazzaglia\Desktop\Progetto_Socket_FP\Progetto_Socket_FP\obj\Debug\MainWindow.baml
+C:\Users\francesco.pazzaglia\Desktop\Progetto_Socket_FP\Progetto_Socket_FP\obj\Debug\Progetto_Socket_FP.g.resources
+C:\Users\francesco.pazzaglia\Desktop\Progetto_Socket_FP\Progetto_Socket_FP\obj\Debug\Progetto_Socket_FP.Properties.Resources.resources
+C:\Users\francesco.pazzaglia\Desktop\Progetto_Socket_FP\Progetto_Socket_FP\obj\Debug\Progetto_Socket_FP.csproj.GenerateResource.cache
+C:\Users\francesco.pazzaglia\Desktop\Progetto_Socket_FP\Progetto_Socket_FP\obj\Debug\Progetto_Socket_FP.csproj.CoreCompileInputs.cache
+C:\Users\francesco.pazzaglia\Desktop\Progetto_Socket_FP\Progetto_Socket_FP\obj\Debug\Progetto_Socket_FP.exe
+C:\Users\francesco.pazzaglia\Desktop\Progetto_Socket_FP\Progetto_Socket_FP\obj\Debug\Progetto_Socket_FP.pdb

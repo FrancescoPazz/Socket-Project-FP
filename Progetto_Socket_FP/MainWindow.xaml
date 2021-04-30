@@ -5,8 +5,27 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Progetto_Socket_FP"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
+        Title="Progetto SOCKET" Height="600" Width="800" ResizeMode="CanResize" FontSize="20">
+    <Grid Background="#FF50F5B2" Margin="0,0,0,-2">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <TextBox x:Name="txtIP" Grid.Row="0" Grid.Column="0" Height="40" Width="150" TextChanged="textBox_TextChanged"></TextBox>
+        <TextBox x:Name="txtPort" Grid.Row="0" Grid.Column="1" Height="40"  Width="150" TextChanged="textBox_TextChanged"></TextBox>
+        <Label Content="IP" Grid.Row="0" Grid.Column="0" VerticalAlignment="Top" HorizontalAlignment="Center"></Label>
+        <Label Content="PORT" Grid.Row="0" Grid.Column="1" VerticalAlignment="Top" HorizontalAlignment="Center"></Label>
+        <Button x:Name="btnCreateSocket" Height="40"  Width="150" Grid.Row="0" Grid.Column="2" Content="Create Socket" Click="btnCreateSocket_Click"></Button>
+        <Label Content="Txt Message"  Grid.Row="1" Grid.Column="0" VerticalAlignment="Top" HorizontalAlignment="Center"></Label>
+        <TextBox x:Name="txtMessage" Grid.Row="1" Grid.RowSpan="2" Grid.Column="0" Height="190" VerticalAlignment="Center" Margin="5"></TextBox>
+        <Button x:Name="btnSend" Height="40"  Width="150" Grid.Row="2" Grid.Column="0" Content="Send Message" VerticalAlignment="Bottom" IsEnabled="False" Click="btnSend_Click" Margin="57,0,57,15"></Button>
+        <Label Content="Label ricevi" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2" HorizontalAlignment="Center" VerticalAlignment="Top"></Label>
+        <TextBlock x:Name="tbkReceive" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2" Grid.RowSpan="2" TextAlignment="Justify" Margin="15,35,15,15"></TextBlock>
     </Grid>
 </Window>
