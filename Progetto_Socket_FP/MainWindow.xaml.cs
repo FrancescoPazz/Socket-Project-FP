@@ -31,10 +31,19 @@ namespace Progetto_Socket_FP
         private void btnCreateSocket_Click(object sender, RoutedEventArgs e)
         {
             //Our IP Address find with ipconfig in CMD or Powershell with a random port of our choice.
-            IPEndPoint sourceSocket = new IPEndPoint(IPAddress.Parse("10.73.0.16"),56000);
+            string localIP;
+            using (Socket socket = new Socket(AddressFamily.InterNetwork, SocketType.Dgram, 0))
+            {
+                socket.Connect("8.8.8.8", 65530);
+                IPEndPoint endPoint = socket.LocalEndPoint as IPEndPoint;
+                localIP = endPoint.Address.ToString();
+            }
+            IPEndPoint sourceSocket = new IPEndPoint(IPAddress.Parse(localIP),56000);
             //Create a thread that abilitate method 'SocketReceive'. Then we pass the parameter on start. 
             Thread receive = new Thread(new ParameterizedThreadStart(SocketReceive));
             receive.Start(sourceSocket);
+            btnSend.IsEnabled = true;
+            tbkReceive.Text += "Correctly connected!";
         }
         private void btnSend_Click(object sender, RoutedEventArgs e)
         {
@@ -65,7 +74,7 @@ namespace Progetto_Socket_FP
                         message += Encoding.ASCII.GetString(bytereceived, 0, bytesCount);
                         this.Dispatcher.BeginInvoke(new Action(() => 
                         {
-                            tbkReceive.Text = message;
+                            tbkReceive.Text += "Received message: "+ message + "\n\r";
                         }));
                         
                     }
@@ -79,6 +88,7 @@ namespace Progetto_Socket_FP
             Socket s = new Socket(destination.AddressFamily, SocketType.Dgram, ProtocolType.Udp);
             IPEndPoint remote_endpoint = new IPEndPoint(destination, destinationPort);
             s.SendTo(bytesended, remote_endpoint);
+            tbkReceive.Text += "Send message: "+message + "\n\r";
         }
         //controls 
         private void textBox_TextChanged(object sender, TextChangedEventArgs e)
@@ -91,10 +101,10 @@ namespace Progetto_Socket_FP
                 if (ipAddress[i] == '.')
                     countDot++;
             }
-            if (string.IsNullOrEmpty(ipAddress) && string.IsNullOrEmpty(port) && countDot == 3)
-                btnSend.IsEnabled = true;
+            if (!string.IsNullOrEmpty(ipAddress) && !string.IsNullOrEmpty(port) && int.TryParse(port, out int n) && countDot == 3)
+                btnCreateSocket.IsEnabled = true;
             else
-                btnSend.IsEnabled = false;
+                btnCreateSocket.IsEnabled = false;
         }
     }
 }

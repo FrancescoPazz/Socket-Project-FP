@@ -13,3 +13,18 @@ C:\Users\francesco.pazzaglia\Desktop\Progetto_Socket_FP\Progetto_Socket_FP\obj\D
 C:\Users\francesco.pazzaglia\Desktop\Progetto_Socket_FP\Progetto_Socket_FP\obj\Debug\Progetto_Socket_FP.csproj.CoreCompileInputs.cache
 C:\Users\francesco.pazzaglia\Desktop\Progetto_Socket_FP\Progetto_Socket_FP\obj\Debug\Progetto_Socket_FP.exe
 C:\Users\francesco.pazzaglia\Desktop\Progetto_Socket_FP\Progetto_Socket_FP\obj\Debug\Progetto_Socket_FP.pdb
+D:\Desktop\KEKKO\Scuola I.T.T\Sistemi e reti\2020-2021\Socket-Project-FP\Progetto_Socket_FP\bin\Debug\Progetto_Socket_FP.exe.config
+D:\Desktop\KEKKO\Scuola I.T.T\Sistemi e reti\2020-2021\Socket-Project-FP\Progetto_Socket_FP\bin\Debug\Progetto_Socket_FP.exe
+D:\Desktop\KEKKO\Scuola I.T.T\Sistemi e reti\2020-2021\Socket-Project-FP\Progetto_Socket_FP\bin\Debug\Progetto_Socket_FP.pdb
+D:\Desktop\KEKKO\Scuola I.T.T\Sistemi e reti\2020-2021\Socket-Project-FP\Progetto_Socket_FP\obj\Debug\Progetto_Socket_FP.csprojAssemblyReference.cache
+D:\Desktop\KEKKO\Scuola I.T.T\Sistemi e reti\2020-2021\Socket-Project-FP\Progetto_Socket_FP\obj\Debug\MainWindow.g.cs
+D:\Desktop\KEKKO\Scuola I.T.T\Sistemi e reti\2020-2021\Socket-Project-FP\Progetto_Socket_FP\obj\Debug\App.g.cs
+D:\Desktop\KEKKO\Scuola I.T.T\Sistemi e reti\2020-2021\Socket-Project-FP\Progetto_Socket_FP\obj\Debug\Progetto_Socket_FP_MarkupCompile.cache
+D:\Desktop\KEKKO\Scuola I.T.T\Sistemi e reti\2020-2021\Socket-Project-FP\Progetto_Socket_FP\obj\Debug\Progetto_Socket_FP_MarkupCompile.lref
+D:\Desktop\KEKKO\Scuola I.T.T\Sistemi e reti\2020-2021\Socket-Project-FP\Progetto_Socket_FP\obj\Debug\MainWindow.baml
+D:\Desktop\KEKKO\Scuola I.T.T\Sistemi e reti\2020-2021\Socket-Project-FP\Progetto_Socket_FP\obj\Debug\Progetto_Socket_FP.g.resources
+D:\Desktop\KEKKO\Scuola I.T.T\Sistemi e reti\2020-2021\Socket-Project-FP\Progetto_Socket_FP\obj\Debug\Progetto_Socket_FP.Properties.Resources.resources
+D:\Desktop\KEKKO\Scuola I.T.T\Sistemi e reti\2020-2021\Socket-Project-FP\Progetto_Socket_FP\obj\Debug\Progetto_Socket_FP.csproj.GenerateResource.cache
+D:\Desktop\KEKKO\Scuola I.T.T\Sistemi e reti\2020-2021\Socket-Project-FP\Progetto_Socket_FP\obj\Debug\Progetto_Socket_FP.csproj.CoreCompileInputs.cache
+D:\Desktop\KEKKO\Scuola I.T.T\Sistemi e reti\2020-2021\Socket-Project-FP\Progetto_Socket_FP\obj\Debug\Progetto_Socket_FP.exe
+D:\Desktop\KEKKO\Scuola I.T.T\Sistemi e reti\2020-2021\Socket-Project-FP\Progetto_Socket_FP\obj\Debug\Progetto_Socket_FP.pdb
